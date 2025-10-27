@@ -8,9 +8,9 @@ Backend desarrollado en **Laravel 10** para un sistema de gestión de productos 
 
 Este backend está diseñado para trabajar con un frontend en Angular:
 
-[Repositorio Frontend Angular][https://github.com/Lemoonautt/frontend-angular-prod]
+[Repositorio Frontend Angular](https://github.com/Lemoonautt/frontend-angular-prod)
 
-👨‍💻 Desarrollado por Limberg Edgar Montes Tancara
+**👨‍💻 Desarrollado por Limberg Edgar Montes Tancara¨**
 
 Tu Nombre
 📧 Correo: limberg.tancara@uab.edu.bo
