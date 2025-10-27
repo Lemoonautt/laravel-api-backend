@@ -36,8 +36,6 @@ class ProductoController extends Controller
         ]);
 
         $producto = Producto::create($request->all());
-        $producto->load('categoria'); // Cargar la categoría
-
         return response()->json($producto, 201);
     }
 
@@ -72,7 +70,7 @@ class ProductoController extends Controller
         ]);
 
         $producto->update($request->all());
-        $producto->load('categoria'); // Cargar la categoría actualizada
+        $producto->load('categoria');
 
         return response()->json($producto, 200);
     }

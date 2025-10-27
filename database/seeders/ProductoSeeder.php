@@ -14,21 +14,21 @@ class ProductoSeeder extends Seeder
     public function run(): void
     {
          Producto::create([
-            'nombre' => 'Laptop Lenovo',
-            'precio' => 20000.50,
-            'categoria_id' => 1
+            'nombre' => 'Polera Nike',
+            'precio' => 200.50,
+            'categoria_id' => 2
         ]);
 
         Producto::create([
-            'nombre' => 'Samsung S23 Ultra',
-            'precio' => 9200.00,
-            'categoria_id' => 1
+            'nombre' => 'Polera Adidas',
+            'precio' => 920,
+            'categoria_id' => 2
         ]);
 
         Producto::create([
             'nombre' => 'Silla Oficina',
             'precio' => 1950.75,
-            'categoria_id' => 2
+            'categoria_id' => 4
         ]);
     }
 }
